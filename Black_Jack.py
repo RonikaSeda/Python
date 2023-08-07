@@ -1,8 +1,8 @@
 import os
 import random
-from turtle import clearscreen
 should_continue = True
-
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
 list_of_card_points = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
 
@@ -56,7 +56,7 @@ def add_cards():
     
           
 def end_game():
-  clearscreen()
+  clear_screen()
   if dealers_result < my_result <= 21:
     print("You win!")
   elif my_result < dealers_result <= 21:
@@ -82,9 +82,9 @@ while should_continue:
     want_continue = input("\nDo you want one more game? yes/no\n")
   if want_continue == "no":
     should_continue = False
-    clearscreen()
+    clear_screen()
     print("Thank you for the game!")
   else:
-    clearscreen()
+    clear_screen()
 
 
