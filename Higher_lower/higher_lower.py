@@ -6,14 +6,17 @@ correct_answer = " "
 score = 0
 A_data_to_display = ""
 B_data_to_display = ""
-
+is_first_run = True
 def clear_screen():
   os.system('cls')
 
 def A():
   global A_data_to_display
+  global B_data_to_display
+  if is_first_run:
+    A_data_to_display = random.choice(data)
+  else:A_data_to_display = B_data_to_display
   print("Compare A: ")
-  A_data_to_display = random.choice(data)
   print(A_data_to_display["name"]+", ", 
  A_data_to_display["description"]+", ", "from " + A_data_to_display["country"])
   return A_data_to_display
@@ -60,3 +63,4 @@ while should_continue:
   user_answer = input("Who has more followers? Type 'A' or 'B': ").lower()
   comparism()
   should_continue = evaluation()
+  is_first_run = False
