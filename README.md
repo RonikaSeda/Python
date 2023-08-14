@@ -1,8 +1,8 @@
-**# Black Jack Game**
+# Black Jack Game
 
 Welcome to the Black Jack game! This is a simple command-line game of Black Jack implemented in Python.
 
-## Rules of the Game
+## Game Rules
 
 1. The goal of the game is to get a hand value as close to 21 as possible without exceeding it.
 2. Numbered cards (2-10) are worth their face value, face cards (Jack, Queen, King) are worth 10 points, and the Ace can be worth 1 or 11 points.
@@ -24,3 +24,17 @@ Welcome to the Black Jack game! This is a simple command-line game of Black Jack
 
 Have fun playing Black Jack!
 __________________________________________
+# Higher-Lower Game
+
+Welcome to the Higher-Lower Game! This is a text-based guessing game where you'll compare the follower counts of different data entries to determine which one has more followers.
+
+## Game Rules
+
+1. At the start of each round, two data entries will be displayed.
+2. You'll choose between Entry A and Entry B by typing 'A' or 'B'.
+3. Compare the follower counts of the two entries and make your guess.
+4. If your guess is correct, your score will increase by 1 point.
+5. The game continues with new data entries for each round.
+6. If your guess is incorrect, the game displays your final score and ends.
+
+Enjoy the challenge of predicting who has more followers in the Higher-Lower Game!
