@@ -45,7 +45,7 @@ This is a simple Python program that simulates a coffee machine. Users can selec
 
 ## How It Works
 
-Users choose a coffee type, and if the required resources and sufficient funds are available, the machine prepares the beverage. Users can insert coins to cover the cost of the coffee. The machine will save the rest of the money for the future beverage if the amount inserted exceeds the cost.
+Users choose a coffee type, and if the required resources and sufficient funds are available, the machine prepares the beverage. Users can insert coins to cover the cost of the coffee. The machine will give the rest of the money back if the amount inserted exceeds the cost.
 
 ## Features
 
@@ -59,7 +59,7 @@ Users choose a coffee type, and if the required resources and sufficient funds a
 
 1. Run the Python code in your preferred development environment.
 2. Choose a coffee type (espresso, latte, cappuccino).
-3. If desired, insert coins to cover the cost.
+3. Insert coins to cover the cost.
 4. if needed you can check remaining stock by typing 'report'
 5. Enjoy your freshly prepared coffee!
 6. ... and do not forget to turn 'off' the coffee machine :)
