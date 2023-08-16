@@ -38,3 +38,32 @@ Welcome to the Higher-Lower Game! This is a text-based guessing game where you'l
 6. If your guess is incorrect, the game displays your final score and ends.
 
 Enjoy the challenge of predicting who has more followers in the Higher-Lower Game!
+_____________________________________________
+# Coffee Machine Python Program
+
+This is a simple Python program that simulates a coffee machine. Users can select and prepare different types of coffee. The machine offers three coffee options: espresso, latte, and cappuccino. Users can also check the availability of resources, insert coins, prepare coffee and turn off the machine.
+
+## How It Works
+
+Users choose a coffee type, and if the required resources and sufficient funds are available, the machine prepares the beverage. Users can insert coins to cover the cost of the coffee. The machine will save the rest of the money for the future beverage if the amount inserted exceeds the cost.
+
+## Features
+
+- Coffee selection and preparation
+- Resource availability check
+- Coin insertion and change calculation
+- Reporting of available resources
+- Machine power-off option
+
+## Getting Started
+
+1. Run the Python code in your preferred development environment.
+2. Choose a coffee type (espresso, latte, cappuccino).
+3. If desired, insert coins to cover the cost.
+4. if needed you can check remaining stock by typing 'report'
+5. Enjoy your freshly prepared coffee!
+6. ... and do not forget to turn 'off' the coffee machine :)
+
+
+
+
