@@ -186,6 +186,31 @@ The Turtle Shapes Drawer is a Python program that creates colorful geometric pat
 3. Observe as the Turtle creates shapes on the screen.
 4. Customize the code to change the number of sides, add more colors, or modify the patterns.
 ____________________________________________________
+# Snake Game
+
+## Description
+A classic Snake game implemented in Python using the Turtle graphics library. Control the snake, collect food, and grow as long as possible without hitting the walls or yourself.
+
+## How to Play
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Run the Python script to start the game.
+4. Use the following keys to control the snake:
+   - "Up" arrow: Move the snake up.
+   - "Down" arrow: Move the snake down.
+   - "Left" arrow: Move the snake left.
+   - "Right" arrow: Move the snake right.
+5. Eat the food to grow the snake.
+6. Avoid hitting the walls and yourself.
+7. Try to achieve the highest score possible!
+
+## Features
+- Snake movement and growth.
+- Score tracking.
+- Game over screen.
+- Simple and intuitive controls.
+
+
 
 
 
