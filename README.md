@@ -148,7 +148,28 @@ Controls:
 
 
 
-# 3. 
+# 3. Turtle Race Game
+
+A simple turtle race game where you can bet on the winning turtle!
+
+## How to Play
+
+1. When you run the game, you will be prompted to make your bet. Enter the color of the turtle you think will win.
+2. Watch the colorful turtles race across the screen.
+3. If your chosen turtle wins, you win the game!
+
+## Rules
+
+- You can choose from five different turtle colors: orange, green, yellow, blue, and red.
+- Each turtle moves forward a random distance between 0 to 10 pixels in each step.
+- The race continues until one of the turtles crosses the finish line at the right side of the screen.
+- If your selected turtle wins, you'll receive a winning message. If not, you'll receive a losing message.
+
+Have fun and may the fastest turtle win!
+
+
+# 4. 
+
 
 
 
