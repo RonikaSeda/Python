@@ -63,33 +63,6 @@ Users choose a coffee type, and if the required resources and sufficient funds a
 4. if needed you can check remaining stock by typing 'report'
 5. Enjoy your freshly prepared coffee!
 6. ... and do not forget to turn 'off' the coffee machine :)
-
-_____________________________________________
-
-# Turtle Shapes Drawer
-
-## Overview
-The Turtle Shapes Drawer is a Python program that creates colorful geometric patterns by drawing shapes with varying numbers of sides. Each shape is drawn with a distinct color, resulting in visually appealing graphics.
-
-## Features
-- Draws
-    Triangle: 3 sides
-    Quadrilateral: 4 sides
-    Pentagon: 5 sides
-    Hexagon: 6 sides
-    Heptagon or Septagon: 7 sides
-    Octagon: 8 sides
-    Nonagon: 9 sides
-    Decagon: 10 sides
-- Utilizes random colors for each shape, adding diversity to the patterns.
-- An interactive way to experiment with Turtle graphics.
-
-## How to Use
-1. Clone the repository or download the Python script.
-2. Run the script using a Python interpreter.
-3. Observe as the Turtle creates shapes on the screen.
-4. Customize the code to change the number of sides, add more colors, or modify the patterns.
-
 ________________________________________________
 # Quiz Game
 
@@ -177,8 +150,42 @@ This Python program generates colorful and abstract art using the Turtle graphic
 The Turtle Art Generator creates mesmerizing art by controlling a turtle that moves across the screen, drawing shapes and lines with random colors. Each run of the program produces a unique track.
 
 
-# 5. Spirograph
+# 5. Spirograph - Art Generator
 
+## Description
+Create mesmerizing Spirograph-style art with Python and the Turtle graphics library.
+
+## Usage
+1. Execute the script to display the Spirograph art.
+2. Enjoy the hypnotic patterns created by the program.
+3. Close the window when done.
+
+
+
+# 6. Turtle Shapes Drawer
+
+## Overview
+The Turtle Shapes Drawer is a Python program that creates colorful geometric patterns by drawing shapes with varying numbers of sides. Each shape is drawn with a distinct color, resulting in visually appealing graphics.
+
+## Features
+- Draws
+    Triangle: 3 sides
+    Quadrilateral: 4 sides
+    Pentagon: 5 sides
+    Hexagon: 6 sides
+    Heptagon or Septagon: 7 sides
+    Octagon: 8 sides
+    Nonagon: 9 sides
+    Decagon: 10 sides
+- Utilizes random colors for each shape, adding diversity to the patterns.
+- An interactive way to experiment with Turtle graphics.
+
+## How to Use
+1. Clone the repository or download the Python script.
+2. Run the script using a Python interpreter.
+3. Observe as the Turtle creates shapes on the screen.
+4. Customize the code to change the number of sides, add more colors, or modify the patterns.
+____________________________________________________
 
 
 
