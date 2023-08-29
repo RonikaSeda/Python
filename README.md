@@ -111,6 +111,35 @@ The program is designed using Object-Oriented Programming (OOP) principles for a
 4. Receive feedback on your answers and see your score.
 5. Decide whether to repeat the quiz or exit.
 
+_______________________________________________________
+# TURTLE PROJECTS:
+
+# 1. Hirst Dot Painting
+
+Recreate the famous Hirst dot painting using Python's Turtle graphics and colorgram.
+
+## About
+
+The Hirst Dot Painting project allows you to recreate the famous dot painting by Damien Hirst using Python's Turtle graphics library. By analyzing an image, it extracts a color palette and generates a similar dot pattern.
+
+## Getting Started
+
+Follow these steps to get the project up and running on your local machine.
+
+### Prerequisites
+
+Make sure you have the following prerequisites installed:
+
+- Python 3.x
+- Python libraries: Turtle, colorgram (install via `pip install colorgram.py`)
+
+### Installation
+
+1. Clone this repository to your local machine.
+2. Install the required Python libraries:
+
+```bash
+pip install colorgram.py
 
 
 
