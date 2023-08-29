@@ -122,25 +122,33 @@ Recreate the famous Hirst dot painting using Python's Turtle graphics and colorg
 
 The Hirst Dot Painting project allows you to recreate the famous dot painting by Damien Hirst using Python's Turtle graphics library. By analyzing an image, it extracts a color palette and generates a similar dot pattern.
 
-## Getting Started
-
-Follow these steps to get the project up and running on your local machine.
-
-### Prerequisites
-
-Make sure you have the following prerequisites installed:
-
-- Python 3.x
-- Python libraries: Turtle, colorgram (install via `pip install colorgram.py`)
-
 ### Installation
 
 1. Clone this repository to your local machine.
 2. Install the required Python libraries:
+   - Turtle,
+   - colorgram (install via `pip install colorgram.py`)
+  
 
-```bash
-pip install colorgram.py
+  
+# 2. Etch A Sketch
 
+A simple Python program to control the movement of a turtle using keyboard inputs as you can know from your childhood - toy Etch A Sketch
+
+## About
+
+The Turtle Control program allows you to control the movement of a turtle on the screen using keyboard inputs. You can move the turtle forward, backward, turn it clockwise, counterclockwise, and clear the screen.
+
+Controls:
+    Press w to move the turtle forward.  
+    Press s to move the turtle backward.  
+    Press a to turn the turtle counterclockwise.  
+    Press d to turn the turtle clockwise.  
+    Press c to clear the screen.  
+
+
+
+# 3. 
 
 
 
