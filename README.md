@@ -209,7 +209,32 @@ A classic Snake game implemented in Python using the Turtle graphics library. Co
 - Score tracking.
 - Game over screen.
 - Simple and intuitive controls.
+____________________________________________________
+# Pong Game
 
+A classic Pong game implemented in Python using the Turtle graphics library. Two players can control paddles to bounce the ball and score points.
+
+## How to Play
+
+1. Control the right paddle using the "Up" and "Down" arrow keys.
+
+2. Control the left paddle using the "W" and "S" keys.
+
+3. Bounce the ball with the paddles to prevent it from going out of bounds.
+
+4. Score points by making the ball pass the opponent's paddle.
+
+5. The game ends when one player reaches the winning score (10 points).
+
+6. Enjoy the classic Pong game!
+
+## Features
+
+- Two-player gameplay
+- Score tracking
+- Ball bounce physics
+
+Have fun playing Pong with a friend!
 
 
 
