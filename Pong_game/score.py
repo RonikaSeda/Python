@@ -40,3 +40,7 @@ class Points(Turtle):
         self.r_score += 1
         self.clear()
         self.update_scoreboard()
+
+    def win_message(self):
+        self. goto(200, 0)
+        self.write("Winner!", font=("Courier", 30, "bold"))

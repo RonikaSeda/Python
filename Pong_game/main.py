@@ -45,5 +45,15 @@ while game_is_on:
         screen.update()
         ball.reset_position()
         continue
+    if points.l_score == 10:
+        points.win_message()
+        game_is_on = False
+        continue
+
+    if points.r_score == 10:
+        points.win_message()
+        game_is_on = False
+        continue
+
 
 screen.exitonclick()
