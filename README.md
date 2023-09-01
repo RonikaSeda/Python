@@ -235,6 +235,27 @@ A classic Pong game implemented in Python using the Turtle graphics library. Two
 - Ball bounce physics
 
 Have fun playing Pong with a friend!
+_____________________________________
+# Turtle Crossing Game
+
+## Description
+The Turtle Crossing Game is a simple Python game implemented using the Turtle graphics library. The objective of the game is to guide a turtle safely across a busy road filled with moving cars. The player must avoid colliding with the cars and reach the other side of the road to win.
+
+## Features
+- Player-controlled turtle character.
+- Randomly generated moving cars.
+- Increasing difficulty levels as the game progresses.
+- Score tracking and level display.
+
+## How to Play
+1. Run the Python script to start the game.
+2. Use the "Up" arrow key to move the turtle forward.
+3. Navigate the turtle to cross the road without colliding with any cars.
+4. Each successful crossing increases the game's difficulty level.
+5. If the turtle collides with a car, the game is over.
+
+## Game Controls
+- Use the "Up" arrow key to move the turtle forward.
 
 
 
