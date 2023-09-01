@@ -13,10 +13,11 @@ screen.title("Pong")
 screen.tracer(0)
 
 screen.listen()
-screen.onkey(r_paddle.go_up, "Up")
-screen.onkey(r_paddle.go_down, "Down")
-screen.onkey(l_paddle.go_up, "w")
-screen.onkey(l_paddle.go_down, "s")
+screen.onkeypress(r_paddle.go_up, "Up")
+screen.onkeypress(r_paddle.go_down, "Down")
+screen.onkeypress(l_paddle.go_up, "w")
+screen.onkeypress(l_paddle.go_down, "s")
+
 points = Points()
 ball = Ball()
 game_is_on = True
@@ -30,18 +31,23 @@ while game_is_on:
     if ball.ycor() < -285 or ball.ycor() > 285:
         ball.bounce_y()
 # detect collision with the paddles
-    if ball.distance(r_paddle) < 50 and ball.xcor() > 320:
+    # right paddle
+    if ball.distance(r_paddle) < 50 and ball.xcor() > 329:
         ball.bounce_x()
-    if ball.distance(l_paddle) < 50 and ball.xcor() < -320:
+    # left paddle
+    if ball.distance(l_paddle) < 50 and ball.xcor() < -329:
         ball.bounce_x()
+    
 # when the paddle missed the ball
     if ball.xcor() > 390:
        points.add_point_left()
+       l_paddle.make_it_harder()
        screen.update()
        ball.reset_position()
        continue
     if ball.xcor() < -390:
         points.add_point_right()
+        r_paddle.make_it_harder()
         screen.update()
         ball.reset_position()
         continue
