@@ -257,6 +257,29 @@ The Turtle Crossing Game is a simple Python game implemented using the Turtle gr
 ## Game Controls
 - Use the "Up" arrow key to move the turtle forward.
 
+________________________________________
+# U.S. States Game
+
+This project is a simple "U.S. States Game" that allows you to learn the states of the USA and their locations on the map.
+
+## How to Play
+
+1. Upon starting the game, you will see a map of the USA with empty states.
+2. Enter the name of a state into the displayed dialog box.
+3. If you guess the state's name correctly, it will be written on the map.
+4. The game continues until you guess all the states or enter "Exit" to finish.
+
+This project requires the following libraries:
+
+    Turtle
+    Pandas
+
+**State data** is loaded from the 50_states.csv file, which contains state names and their coordinates on the map.
+
+**States to Learn**
+
+If you want to find out which states you haven't guessed yet, you can check the states_to_learn.csv file. This file contains a list of states that haven't been guessed yet.
+
 
 
 
