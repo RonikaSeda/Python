@@ -14,19 +14,28 @@ class ScoreBoard(Turtle):
         self.up()
         self.goto([0, 270])
         self.color(("white"))
-        self.update_score
-        
+        with open("data.txt", mode="r") as data:
+            self.high_score = int(data.read())
+        self.update_score()
+    
     def update_score(self):
-        self.write(f"Score: {self.points}", align=self.ALIGN, font=(self.FONT, self.FONT_SIZE, self.FONT_STYLE))
+        self.clear()
+        self.write(f"Score: {self.points} High score: {self.high_score}", align=self.ALIGN, font=(self.FONT, self.FONT_SIZE, self.FONT_STYLE))
 
     def count_score(self):
         self.points += 1
-        self.clear()
         self.update_score()
 
-    def game_over(self):
-        self.FONT_SIZE = 40
-        self.FONT_STYLE = "bold"
-        self.goto(0, 0)
-        self.write("Game over!", align=self.ALIGN, font= (self.FONT, self.FONT_SIZE, self.FONT_STYLE))
+    def reset(self):
+        if self.points > self.high_score:
+            self.high_score = self.points
+            with open("data.txt", mode = "w") as data:
+                data.write(str(self.high_score))
+                data.close()
+        self.points = 0
+        self.update_score()
         
+
+
+        
+            
